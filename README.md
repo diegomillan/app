@@ -28,11 +28,11 @@ virtualenv venv
  ```
 
 ## Usage
- From the root folder of this repository, execute:
+ From the root folder of this repository, execute (it will run over each input line defined in input.txt):
  ```bash
  make run
  ```
- Also, you could run the app passing an existing file as argument:
+ Also, you could run the app passing an existing file as argument (this file must follow the same format as input.txt):
  ```bash
  app <filename.txt>
  ```
