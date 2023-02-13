@@ -24,3 +24,7 @@ Tested on Unix based machines, using python 3.9+.
  ```bash
  make run
  ```
+ Also, you could run the app passing an existing file as argument:
+ ```bash
+ app <filename.txt>
+ ```

@@ -4,9 +4,8 @@ import click
 @click.command()
 @click.argument("input", type=click.File("r"), default='input.txt')
 def app(input):
-    """This CLI finds all pair summing a certain number.
-    \b
-    Reading an input file.
+    """This CLI finds all pair summing a certain number
+    reading the input from a file.
     """
     # Read the file assuming each line could be a different input.
     for line in input.readlines():
