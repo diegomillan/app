@@ -5,4 +5,4 @@ run:
 	app
 
 tests:
-	pytest --version
+	pytest
