@@ -6,7 +6,7 @@ Tested on Unix based machines, using python 3.9+.
  - Install python 3.9 or later
  - Install pip
  - Install virtualenv
- - ```bash git clone ```
+ - ```git clone https://github.com/diegomillan/app.git```
 
 ## Build & Requirements
  From the root folder of this repository, execute:
