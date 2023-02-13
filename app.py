@@ -14,7 +14,8 @@ def app(input):
             # parsing strings in file into integers
             target = int(target)
             numbers = [int(char) for char in numbers.split(",")]
-            print(numbers, target)
+            print(f'The array of numbers: {numbers}')
+            print(f'The target sum: {target}')
         except Exception as error:
             print(f'Error reading line: {line}')
             print(f'Please check the input is in the expected format')
