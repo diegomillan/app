@@ -4,10 +4,9 @@ import click
 @click.command()
 @click.argument("input", type=click.File("r"), default='input.txt')
 def app(input):
-    """This script finds all pair summing a certain number.
+    """This CLI finds all pair summing a certain number.
     \b
-    Copy stdin to stdout:
-        inout - -
+    Reading an input file.
     """
     # Read the file assuming each line could be a different input.
     for line in input.readlines():
@@ -27,11 +26,11 @@ def app(input):
 
 
 def find_pairs_with_sum(numbers, target):
-    """_summary_
+    """Find all pairs in numbers summing target
 
     Args:
-        numbers (_type_): _description_
-        target (_type_): _description_
+        numbers (array of integers): array to look up for pairs.
+        target (integer): The target sum a given pair should match.
     """
     complement_search = dict()
     pairs = []
