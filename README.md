@@ -36,3 +36,9 @@ virtualenv venv
  ```bash
  app <filename.txt>
  ```
+
+ ## Help and Description
+ Find a general description and help executing:
+ ```bash
+ app --help
+ ```
